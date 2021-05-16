@@ -13,7 +13,6 @@ city_weather ={
 }
 print(city_weather["city"])
 city_weather["temperature"] += 5
-print(city_weather)
 print(city_weather.get("country", "Россия"))
 city_weather["date"] = "27.05.2019"
 print(len(city_weather))
